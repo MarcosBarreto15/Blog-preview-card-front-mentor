@@ -23,7 +23,7 @@
 body {
     background-color: var(--amarelo);
     font-family: "Figtree", sans-serif;
-    max-width: 1440px;
+    max-width: 90rem;
 }
 
 /* textos */
@@ -43,7 +43,7 @@ body {
 /* mobile-first */
 
 .container-card {
-    width: 325px;
+    width: 20.31rem;
     background-color: var(--branco);
     display: flex;
     flex-direction: column;
@@ -59,7 +59,7 @@ body {
 }
 
 .img-principal {
-    height: 200px;
+    height: 12.5rem;
     width: 100%;
     object-fit: cover;
     border-radius: 10px;
@@ -95,13 +95,13 @@ p{
 
 .tech {
     display: flex;
-    gap: 10px;
+    gap: 0.625rem;
     align-items: center;
 }
 
 .tech img {
-    width: 35px;
-    height: 35px;
+    width: 2rem;
+    height: 2rem;
 }
 
 .span-tech {
@@ -111,10 +111,10 @@ p{
 
 /* telas maiores entre 768 e 1440px */
 
-@media (min-width: 768px )  {
+@media (min-width: 48rem)  {
 
     .container-card {
-        width: 400px;
+        width: 25rem;
     }
 
 
