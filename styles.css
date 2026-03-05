@@ -50,7 +50,7 @@ article {
 }
 
 .container-card {
-    width: 20.31rem;
+    max-width: 20.31rem;
     background-color: var(--branco);
     display: flex;
     flex-direction: column;
@@ -58,11 +58,11 @@ article {
     gap: 0.9375rem;
     border-radius: 20px;
     border: 1px solid var(--cinza-escuro);
-    box-shadow: 0.5rem 0.5rem 0 var(--cinza-escuro);  
+    box-shadow: 8px 8px 0 var(--cinza-escuro);  
 }
 
 .img-principal {
-    height: 12.5rem;
+    max-height: 12.5rem;
     width: 100%;
     object-fit: cover;
     border-radius: 10px;
@@ -117,7 +117,7 @@ p{
 @media (min-width: 48rem)  {
 
     .container-card {
-        width: 25rem;
+        max-width: 25rem;
     }
 
 
