@@ -42,6 +42,18 @@ body {
 
 /* mobile-first */
 
+.sr-only {
+    position: absolute;
+    width: 0.625rem;
+    height: 0.625rem;
+    padding: 0;
+    margin: -0.625rem;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
 article {
     display: flex;
     justify-content: center;
@@ -68,9 +80,8 @@ article {
     border-radius: 10px;
 }
 
-a{
+.caption-2{
     background-color: var(--amarelo);
-    text-decoration: none;
     color: var(--cinza-escuro);
     font-weight: 800;
     padding: 0.375rem 0.75rem;
@@ -84,13 +95,20 @@ a{
 }
 
 
-h1{
+.link-card{
     font-weight: 800;
     color: var(--cinza-escuro);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover{
+    color: var(--amarelo);
 }
 
 
-p{
+
+.description-card{
     color: var(--cinza-medio);
     font-weight: 500;
     line-height: 1.6;
