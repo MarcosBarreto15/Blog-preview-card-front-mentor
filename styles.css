@@ -102,9 +102,17 @@ article {
     cursor: pointer;
 }
 
-a:hover{
+.link-card:hover{
     color: var(--amarelo);
 }
+
+.link-card:focus-visible{
+    outline: 0.125rem solid var(--amarelo);
+    outline-offset: -0.125rem;
+}
+
+
+
 
 
 
