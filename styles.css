@@ -24,6 +24,7 @@ body {
     background-color: var(--amarelo);
     font-family: "Figtree", sans-serif;
     max-width: 90rem;
+    margin: 0 auto;
 }
 
 /* textos */
